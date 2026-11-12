@@ -4,8 +4,6 @@ A Python command-line program that solves 9×9 Sudoku puzzles step by step using
 
 ## Overview
 
-This project was developed for **BBM103 – Introduction to Programming Laboratory I** at **Hacettepe University** (Fall 2023, Programming Assignment 2).
-
 The solver finds candidate numbers for each empty cell by checking its row, column, and 3×3 subgrid. When a cell has exactly one valid candidate, the program fills it and repeats the process. The original implementation uses recursion to continue after each placement. **It does not use backtracking**; it is intended for puzzles that can be completed through single-candidate elimination, as specified in the assignment.
 
 ## Features
